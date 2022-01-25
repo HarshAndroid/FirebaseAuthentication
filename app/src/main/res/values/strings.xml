@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebaseAuthentication</string>
+    <string name="no_data">Not Signed In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+</resources>
