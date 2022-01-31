@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">FirebaseAuthentication</string>
     <string name="no_data">Not Signed In</string>
     <string name="sign_in">Sign In</string>
@@ -11,4 +11,5 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="create_account">Create Account</string>
+    <string name="client_id" tools:ignore="TypographyDashes">176346144139-553qs9ntri8u875ir5itkd91l4tpputp.apps.googleusercontent.com</string>
 </resources>

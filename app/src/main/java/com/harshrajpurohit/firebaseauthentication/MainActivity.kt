@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
+        if(auth.currentUser == null){
+            startActivity(Intent(this, RegisterActivity::class.java))
+            finish()
+        }
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
